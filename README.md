@@ -1,8 +1,11 @@
-# Youtube
-Youtube clone using typescript, react, redux and tailwind
+To install dependencies 
 
-#npm install
-to install all dependencies
+### `npm install`
 
-#npm run dev
-to locally host using Vite
+Because of Vite instead of CRA
+To run locally:
+
+### `npm start dev`
+
+In terminal there will be link to local host, for example 'http://localhost:5173/. Just press C + Left Mouse click to open new tab in browser
+or just copy it and paste.
