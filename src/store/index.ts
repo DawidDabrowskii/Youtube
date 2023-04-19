@@ -1,5 +1,5 @@
-import { InitialState } from '../../utils/Types';
-import { createSlice } from '@reduxjs/toolkit';
+import { InitialState } from '../utils/Types';
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 const initialState: InitialState = {
   videos: [],
