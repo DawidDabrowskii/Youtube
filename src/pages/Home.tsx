@@ -3,6 +3,8 @@ import Sidebar from '../components/Sidebar';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { useEffect } from 'react';
 import { getHomePageVideos } from '../store/reducers/getHomePageVideos';
+import Spinner from '../components/Spinner';
+import InfiniteScroll from '../components/InfiniteScroll';
 
 const Home = () => {
   const dispatch = useAppDispatch();
@@ -18,6 +20,8 @@ const Home = () => {
       </div>
       <div className='flex h-[92.5vh]'>
         <Sidebar />
+        {/* {videos.length > 0 ? <InfiniteScroll /> : <Spinner />} */}
+        <Spinner />
       </div>
     </div>
   );
